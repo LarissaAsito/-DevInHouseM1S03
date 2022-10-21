@@ -7,7 +7,10 @@ const p = document.getElementById('paragrafo');
 const mensagemOla = (nome) => `Olá, ${nome}!`;
 
 botao.addEventListener('click', () => {
-    console.log(mensagemOla(campo.value));
+    //console.log(mensagemOla(campo.value));
+    const mensagem = mensagemOla(campo.value);
+    p.innerHTML = mensagem;
+    console.log(mensagem);
 });
 
 

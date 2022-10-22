@@ -1,4 +1,4 @@
-console.log('m1-so3-e4');
+console.log('m1-so3-e6');
 
 function verificaPalindromo(texto) {
     if (typeof texto !== 'string') {
